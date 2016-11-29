@@ -23,7 +23,7 @@ app.config(function($routeProvider, $locationProvider)
   })
 
   .when('/os', {
-    templateUrl : 'app/views/executores.html',
+    templateUrl : 'app/views/os.html',
     controller : 'OsCtrl',
   })
 
