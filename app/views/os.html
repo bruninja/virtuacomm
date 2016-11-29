@@ -1,4 +1,73 @@
 <!-- os.html -->
-<div class="page-header">
-   <h1>Página Ordem de Serviço!</h1>
-</div>
+
+
+<div class="mdl-cell mdl-cell--12-col">
+  <div class="mdl-layout__tab-panel is-active" id="overview">
+    <center><h4>Ordem de Serviço</h4></center>
+    <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+      <div class="mdl-card mdl-cell mdl-cell--12-col">
+        <div class="mdl-card__supporting-text">
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--6-col">
+              <!-- Colored mini FAB button -->
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" id="sample3">
+                <label class="mdl-textfield__label" for="sample3"><i class="material-icons">search</i></label>
+              </div>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col"></div>
+            <div class="mdl-cell mdl-cell--2-col">
+              <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored">
+                <i class="material-icons">add</i>
+              </button>
+            </div>
+          </div>
+
+          <div class="mdl-select mdl-js-select mdl-select--floating-label">
+            <label class="mdl-select__label" for="professsion">filtro: </label>
+            <select class="mdl-select__input" id="professsion" name="professsion">
+              <option value=""></option>
+              <option value="option1">Clientes</option>
+              <option value="option2">Executores</option>
+              <option value="option3">Todos</option>
+            </select>
+          </div>
+
+          <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp mdl-cell mdl-cell--12-col">
+            <thead>
+              <tr>
+                <th>nº O.S</th>
+                <th>Data</th>
+                <th>Status</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><b>789</b></td>
+                <td>25/01/1987</td>
+                <td>Em Andamento</td>
+                <td>
+                  <!-- Mini FAB button -->
+                  <button class="mdl-button mdl-js-button mdl-button--mini-fab">
+                    <i class="material-icons">mode_edit</i>
+                  </button>
+                  <!-- Colored mini FAB button -->
+                  <button class="mdl-button mdl-js-button mdl-button--mini-fab">
+                    <i class="material-icons">delete_forever</i>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="mdl-card__actions">
+          <!-- Colored raised button -->
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+            Adcionar
+          </button>
+        </div>
+      </div>
+    </section>
+  </div>
+  </div>

@@ -1,4 +1,65 @@
 <!-- clientes.html -->
-<div class="page-header">
-   <h1>Página Clientes!</h1>
-</div>
+
+
+<div class="mdl-cell mdl-cell--12-col">
+  <div class="mdl-layout__tab-panel is-active" id="overview">
+    <center> <h4>Clientes</h4> </center>
+    <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+      <div class="mdl-card mdl-cell mdl-cell--12-col">
+        <div class="mdl-card__supporting-text">
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--2-col">
+              <!-- Colored mini FAB button -->
+              <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored">
+                <i class="material-icons">add</i>
+              </button>
+            </div>
+            <div class="mdl-cell mdl-cell--6-col"></div>
+            <div class="mdl-cell mdl-cell--4-col">
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" id="sample3">
+                <label class="mdl-textfield__label" for="sample3"><i class="material-icons">search</i></label>
+              </div>
+            </div>
+          </div>
+
+          <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp mdl-cell mdl-cell--12-col">
+            <thead>
+              <tr>
+                <th>cpf</th>
+                <th>Nome</th>
+                <th>email</th>
+                <th>categoria</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>02475580364</td>
+                <td>Bruno Carvalho Teixeira</td>
+                <td>bruno.carvalho@hotmail.de</td>
+                <td>Executor</td>
+                <td>
+                  <!-- Mini FAB button -->
+                  <button class="mdl-button mdl-js-button  mdl-button--mini-fab">
+                    <i class="material-icons">mode_edit</i>
+                  </button>
+                  <!-- Colored mini FAB button -->
+                  <button class="mdl-button mdl-js-button mdl-button--mini-fab">
+                    <i class="material-icons">delete_forever</i>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="mdl-card__actions">
+          <!-- Colored raised button -->
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+            Adcionar
+          </button>
+        </div>
+      </div>
+    </section>
+  </div>
+  </div>
